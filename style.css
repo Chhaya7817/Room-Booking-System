@@ -1,0 +1,40 @@
+ *{padding:0;margin: 0;box-sizing: 0;}
+ body{
+    background-color:rgb(245, 147, 19);
+    display: flex;justify-content: center;
+    align-items: center;
+    height:100vh;
+ }
+
+ .container{
+    width:500px;
+    background-color: white;
+    height:400px;
+    border-radius: 20px;
+    padding:10px;
+ }
+ h2{
+    text-align: center;
+    padding:20px;
+
+ }
+ .container form{
+    margin:30px;
+ }
+ input{
+    width:300px;
+    padding :5px;
+ }
+ .btns{
+    display: flex;
+    justify-content: center;
+ }
+ .btn{
+    width:80px;
+    margin:20px;
+    padding:5px;
+    font-size :15px;
+    background-color:rgb(224, 224, 200);
+    border:none;
+    border-radius: 10px;
+ }
