@@ -38,3 +38,8 @@
     border:none;
     border-radius: 10px;
  }
+
+ a{
+   font-size: 20px;
+   font-weight: bold;
+ }

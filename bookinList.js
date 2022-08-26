@@ -39,6 +39,7 @@ var tbody = document.getElementById("tbody");
       let td3 = document.createElement("td");
       let td4 = document.createElement("td");
       let td5 = document.createElement("td");
+      let td6 = document.createElement("td");
   
       td1.innerText = ++stdNo;
       td2.innerText = room.ROOM_NO;
@@ -53,12 +54,13 @@ var tbody = document.getElementById("tbody");
         let dtout= new Date(room.CHECK_OUT);
       td5.innerText = dtout.toLocaleDateString();
       }
+      td6.innerHTML=room.CHECK_OUT - room.CHECK_IN;
       tr.appendChild(td1);
       tr.appendChild(td2);
       tr.appendChild(td3);
       tr.appendChild(td4);
       tr.appendChild(td5);
-  
+      tr.appendChild(td6);
       tbody.append(tr);
     });
 

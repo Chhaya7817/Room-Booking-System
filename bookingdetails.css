@@ -14,7 +14,7 @@ body {
 h2{
     height:50px;
     margin:20px;
-    padding-top: 100px;
+    padding-top: 800px;
     font-size:40px;
 }
 .text-center{
@@ -34,7 +34,6 @@ h2{
     display: flex;
     justify-content: left;
     align-items: center;
-    padding: 0px;
 }
 .table table-striped{
     display: flex;
@@ -47,35 +46,29 @@ th{
 
 }
 #tbody{
-    background-color: aqua;
+    background-color: rgb(168, 201, 201);
     display: flex;
     justify-content: center;
     align-items: left;
     flex-direction: column;
     padding:20px;
     text-align: left;
-    padding-left:50px;
     font-size:20px;
-    padding-right:50px;
+    padding-left: 0px;
 }
 
-#tbody tr td{
-    padding:0px 140px 0px 30px;
-    align-content: space-evenly;
 
-}
-#tbody tr td .lastchild{
-    padding-left:60px;
-}
-/*
+
 
 
 #tbody tr td{
     width:200px;
 
-    padding-top :200px;
     height:50px;
     text-align: center;
-    padding:0px 100px;
 }
-*/
+
+a{
+    font-size: 24px;
+    font-weight: bold;
+  }
